@@ -19,16 +19,10 @@
 - CreateUser_ShouldReturn200 — создание нового пользователя  
 - UpdateUser_ShouldReturn200 — обновление пользователя  
 - DeleteUser_ShouldReturn200 — удаление пользователя  
+<img width="1536" height="487" alt="изображение" src="https://github.com/user-attachments/assets/23ac775c-0fa7-48da-b226-857ffca0e011" />
 
 Тесты создают своих пользователей, чтобы не зависеть друг от друга.
-
----
-
-## Проблемы
-
-- Swagger не работал до установки NuGet пакета Swashbuckle.AspNetCore  
-- Update/Delete тесты падали с 404 — теперь каждый тест создаёт пользователя перед операцией  
-- Было предупреждение NUnit про Dispose — исправлено через TearDown
+<img width="195" height="205" alt="изображение" src="https://github.com/user-attachments/assets/6f70486c-3ab0-4a2e-b303-b583f1290799" />
 
 ---
 
